@@ -2,7 +2,7 @@ Datenschutzerklärung für die Donkey Bridge App
 Stand: 05 Dezember 2025
 Version: 1.0
 
-Verantwortlicher
+Verantwortlicher:
 Donkey Bridge wird entwickelt von:
 Sergio Kulick
 E-Mail: dingda@gmx.net
