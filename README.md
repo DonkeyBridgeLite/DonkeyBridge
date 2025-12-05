@@ -1,5 +1,5 @@
 Datenschutzerklärung für die Donkey Bridge App
-Stand: 05. Dezember 2025
+Stand: 05 Dezember 2025
 Version: 1.0
 1. Verantwortlicher
 Donkey Bridge wird entwickelt von:
