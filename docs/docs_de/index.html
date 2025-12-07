@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donkey Bridge Lite – Kurzanleitung</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0D1117;
+            color: #C9D1D9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #161B22;
+            border-radius: 12px;
+            padding: 35px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border: 1px solid #30363D;
+        }
+        h1 {
+            text-align: center;
+            color: #58A6FF;
+            font-size: 2.4em;
+            margin-bottom: 35px;
+            text-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+            letter-spacing: 0.5px;
+        }
+        h2 {
+            color: #58A6FF;
+            border-bottom: 2px solid #58A6FF;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            font-size: 1.4em;
+        }
+        strong { color: #79C0FF; }
+        code {
+            background: #21262D;
+            color: #79C0FF;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        ol, ul { padding-left: 28px; }
+        .highlight {
+            background: rgba(88, 166, 255, 0.08);
+            border-left: 4px solid #58A6FF;
+            padding: 18px 22px;
+            border-radius: 8px;
+            margin: 25px 0;
+            font-size: 1.15em;
+            box-shadow: 0 4px 12px rgba(88, 166, 255, 0.1);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 25px;
+            border-top: 1px dashed #30363D;
+            color: #8B949E;
+            font-size: 1.1em;
+        }
+		
+		
+		:root {
+  --bg: #1B5D94;
+  --accent: orange;
+  --card: rgba(255, 255, 255, 0.08);
+  --muted: rgba(255, 255, 255, 0.85);
+}
+body {
+  margin: 0;
+  font-family: Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.wrap { width: 100%; max-width: 820px; }
+header { text-align: center; margin-bottom: 12px; position: relative; }
+/*h1 { margin-top: 50px; color: var(--accent); font-size: 2.1rem; }*/
+h1 {
+    /* Responsive margin-top – von ~24px auf kleinen Handys bis max 80px auf großen Bildschirmen */
+    margin-top: clamp(24px, 8vw, 80px);
+   
+  
+    color: var(--accent);
+    font-size: 2.1rem;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Donkey Bridge Lite – Kurzanleitung</h1>
+
+        <h2>Was ist Donkey Bridge Lite?</h2>
+        <p>Donkey Bridge Lite erzeugt sichere und eindeutige Passwörter für jedes Konto – und das komplett lokal, ohne Speicherung und ohne Cloud.<br>
+        <strong>Beispiel:</strong> Du hast nur eine einzige Crypto-Zeile im Kopf und erhältst aus jeder gespeicherten Zahlenfolge immer exakt dasselbe starke Passwort.</p>
+
+        <div class="highlight">
+            <strong>Crypto-Zeile (das Einzige, was du dir merken musst!)</strong><br><br>
+            Du musst wirklich nur diese eine Crypto-Zeile im Kopf behalten – absolut nichts weiter!<br>
+            Die Crypto-Zeile hat aus Sicherheitsgründen mindestens 8 Zeichen, darf aber so lang sein, wie du sie dir gut merken kannst – also auch ein ganzer Satz, ein Song- oder Filmzitat.<br><br>
+            <strong>Beispiele:</strong> „Mamba17_” oder „Think it. Recall it. Donkey Bridge Lite” oder „Think it. Recall it. Donkey Bridge Pro“ – mehr musst du nicht auswendig wissen.
+        </div>
+
+        <h2>Die Konto-Notation ist immer eine Zahlenfolge.</h2>
+        <p>Die Notation ist immer eine Zahlenfolge von 1 bis 8 oder mehr, wobei jede Zahl genau einmal vorkommt und durch Kommas getrennt ist.<br>
+        Du kopierst diese Zahlenfolge einfach aus deinem PDF oder deiner E-Mail und fügst sie ins Notationsfeld ein (R-Tool).<br>
+        <strong>Beispiel:</strong> Im PDF steht: <code>1, 3, 4, 8, 2, 7, 5, 6 – Gmail privat</code>.</p>
+
+        <h2>So holst du ein Passwort wieder heraus (R-Tool):</h2>
+        <ol>
+            <li>Öffne deine E-Mail oder dein PDF.</li>
+            <li>Kopiere die passende Zahlenfolge (z. B. 1,3,4,8,2,7,5,6).</li>
+            <li>Öffne Donkey Bridge Lite → R-Tool.</li>
+            <li>Füge die Zahlenfolge ins Notation-Feld ein.</li>
+            <li>Tippe deine komplette Crypto-Zeile ein (kurz oder lang).</li>
+            <li>Drücke „Rekonstruieren“.</li>
+            <li>Das fertige Passwort erscheint unten → kann kopiert und beim Anmelden eingefügt werden.</li>
+        </ol>
+        <p><strong>Beispiel:</strong> Du fügst 1,3,4,8...,28 ein, tippst „Houston, we have no problem!“ → dein Passwort erscheint sofort.</p>
+
+        <h2>Sicherheit</h2>
+        <ul>
+            <li>100 % lokal auf deinem Gerät</li>
+            <li>Kein Passwort wird gespeichert</li>
+            <li>Kein Internet nötig</li>
+        </ul>
+        <p><strong>Beispiel:</strong> Je länger deine Crypto-Zeile ist, desto sicherer wird jedes Passwort – und du musst trotzdem nur diese eine Zeile kennen.</p>
+
+        <h2>Fazit – was du wirklich können musst</h2>
+        <p>Merke dir genau EINE Sache: deine Crypto-Zeile – ab 8 Zeichen, so lang wie du willst (kurzer Code oder ganzer Merksatz aus Song/Film/Buch).<br>
+        Alle Zahlenfolgen stehen sicher in deinem PDF oder in deiner E-Mail und werden einfach kopiert.<br>
+        
+
+        <h2>So viele Passwörter sind möglich</h2>
+        <p>Mit nur einer einzigen Crypto-Zeile kannst du <strong>8×8 = 64</strong> verschiedene, absolut sichere Passwörter erzeugen – für normale Menschen reicht das ein Leben lang locker aus.</p>
+
+        <div class="highlight">
+            <strong>Das Beste zum Schluss</strong><br><br>
+            Mit Donkey Bridge Lite brauchst du dein Leben lang nur ein einziges Passwort (deine Crypto-Zeile) im Kopf – alle anderen starken Passwörter macht Donkey Bridge Lite automatisch für dich.
+        </div>
+
+        <div class="footer">
+            Support: dingda@gmx.net
+        </div>
+    </div>
+</body>
+</html>
