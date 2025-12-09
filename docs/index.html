@@ -1,160 +1,110 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <title>Datenschutzerklärung – Donkey Bridge | Donkey Bridge Lite</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Datenschutzerklärung — Donkey Bridge / Donkey Bridge Lite</title>
+  <meta name="description" content="Datenschutzerklärung für Donkey Bridge und Donkey Bridge Lite. Offline-orientierte Passwort-/Schlüssel-Generierungs-App." />
   <style>
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      line-height: 1.7;
-      background: #ffffff;
-      color: #111;
-      margin: 0;
-      padding: 28px;
-      font-size: 18px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-top: 0;
-    }
-    h2 {
-      font-size: 1.5rem;
-      margin-top: 1.6em;
-    }
-    ul {
-      padding-left: 22px;
-    }
-    footer {
-      margin-top: 42px;
-      font-size: 1rem;
-      color: #555;
-    }
+    :root{font-family:Inter, system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif; color:#0b0b0b}
+    body{max-width:900px;margin:36px auto;padding:24px;background:#fff}
+    h1,h2{color:#0b3a66}
+    header{border-bottom:1px solid #eee;padding-bottom:12px;margin-bottom:18px}
+    section{margin:18px 0;padding:12px;border-radius:8px;background:#fbfdff;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
+    footer{font-size:0.9rem;color:#444;margin-top:28px;border-top:1px solid #eee;padding-top:12px}
+    code{background:#f4f6fb;padding:2px 6px;border-radius:4px;font-family:monospace}
+    .meta{font-size:0.95rem;color:#333}
+    a{color:#0b6fb3}
   </style>
 </head>
 <body>
-  <div class="container">
-
+  <header>
     <h1>Datenschutzerklärung</h1>
-    <p>Stand: 05 Dezember 2025</p>
+    <p class="meta">Donkey Bridge / Donkey Bridge Lite — <strong>Stand:</strong> 05.12.2025 — <strong>Version:</strong> 1.1</p>
+  </header>
 
+  <section>
     <h2>1. Verantwortlicher</h2>
     <p>
-      Donkey Bridge | Donkey Bridge Lite wird entwickelt von:<br>
       Serge Kulikov<br>
-      E-Mail: dingda@gmx.net<br>
+      E-Mail: <a href="mailto:dingda@gmx.net">dingda@gmx.net</a><br>
+      (Impressum / Anschrift: Bitte hier ergänzen oder auf das offizielle Impressum verlinken.)
+    </p>
+  </section>
+
+  <section>
+    <h2>2. Kurzüberblick</h2>
+    <p>
+      Donkey Bridge und Donkey Bridge Lite sind als lokale Tools zur Passwort- und Schlüsselgenerierung konzipiert. Soweit technisch möglich, werden alle Berechnungen lokal auf deinem Endgerät ausgeführt. Die App ist so gestaltet, dass sie keine Netzwerkverbindungen herstellt und keine Registrierung erfordert.
+    </p>
+    <p>Wenn Funktionen zukünftig geändert werden, die eine Netzwerkverbindung oder Datenspeicherung erfordern, werden diese Änderungen transparent gekennzeichnet.</p>
+  </section>
+
+  <section>
+    <h2>3. Keine Erhebung personenbezogener Daten</h2>
+    <p>
+      Wir erheben, speichern oder verarbeiten grundsätzlich keine personenbezogenen Daten im Sinne der DSGVO. Deine Eingaben (z. B. Passphrasen, Schlüsselwörter) werden nur temporär im Arbeitsspeicher (RAM) verarbeitet und nicht dauerhaft auf dem Gerät oder auf unseren Servern gespeichert.
+    </p>
+  </section>
+
+  <section>
+    <h2>4. Technische Details</h2>
+    <p>
+      Für lokale Berechnungen verwendet die App kryptografische Verfahren (z. B. SHA-256 oder geeignete Key-Derivation-Funktionen). Solche Algorithmen dienen ausschließlich der lokalen Ableitung/generierung von Schlüsseln oder Passwörtern und verlassen dein Gerät nicht.
     </p>
     <p>
-      Als Verantwortlicher im Sinne der DSGVO (Datenschutz-Grundverordnung) und des BDSG (Bundesdatenschutzgesetz)
-      informieren wir dich transparent über den Umgang mit deinen Daten.
+      Sofern der Quellcode öffentlich verfügbar ist (Open Source), ist er im zugehörigen Repository einsehbar — Interessierte können dort prüfen, wie Daten verarbeitet werden. Bitte setze hier den Link zu deinem Repository ein: <code>[REPO_URL]</code>.
     </p>
+  </section>
 
-    <h2>2. Allgemeines</h2>
+  <section>
+    <h2>5. App-Stores, Hosting & externe Dienste</h2>
     <p>
-      Donkey Bridge | Donkey Bridge Lite ist eine vollständig offline Passwort-Generierungs-App.<br>
-      Wir erheben, speichern, übertragen oder verarbeiten keine personenbezogenen Daten – weder auf deinem Gerät noch auf Servern.
+      Beim Herunterladen der App über App-Stores (z. B. Google Play, Apple App Store) entstehen Installations- und Store-Metadaten (z. B. IP-Adresse, Geräteinformationen), die vom jeweiligen Store-Betreiber verarbeitet werden. Diese Vorgänge liegen außerhalb unseres Einflussbereiches. Donkey Bridge selbst hat keinen Zugriff auf diese Store-Daten und verarbeitet sie nicht.
     </p>
-
-    <ul>
-      <li>Keine Registrierung erforderlich.</li>
-      <li>Keine Cloud-Synchronisation.</li>
-      <li>Keine Analysen oder Logs.</li>
-    </ul>
-
     <p>
-      Alle Berechnungen laufen ausschließlich lokal auf deinem Endgerät (Smartphone, Tablet, etc.).<br>
-      Deine Eingaben (z. B. Schlüsselwörter oder Zitate) werden ausschließlich temporär im RAM (Arbeitsspeicher)
-      verarbeitet und sofort nach der Generierung gelöscht. Es gibt keine dauerhafte Speicherung deiner Eingaben
-      innerhalb der App.
+      Die begleitende Webseite wird über GitHub Pages gehostet. Derzeit verwenden wir keine externen Analyse- oder Tracking-Dienste. Falls externe Ressourcen (z. B. Schriftarten, Bibliotheken) geladen werden, werden wir dies in der technischen Dokumentation offenlegen.
     </p>
+  </section>
 
-    <h2>3. Erhobene Daten</h2>
-    <p>Keine personenbezogenen Daten werden erhoben.</p>
-
-    <ul>
-      <li>Kategorien: 0 (keine).</li>
-      <li>Zweck: Nicht anwendbar.</li>
-      <li>Rechtsgrundlage: Nicht anwendbar (Art. 6 DSGVO).</li>
-      <li>Speicherdauer: 0 Sekunden.</li>
-    </ul>
-
+  <section>
+    <h2>6. Rechtsgrundlage</h2>
     <p>
-      Hinweis zu App-Stores (Google Play, Apple App Store, etc.):<br>
-      Beim Herunterladen oder Installieren der App über einen App-Store erhält der jeweilige Store-Betreiber
-      (z. B. Google LLC, Apple Inc.) anonymisierte Installationsdaten (z. B. Geräte-ID, IP-Adresse zur Abrechnung/Statistik).
-      Dies liegt außerhalb unserer Kontrolle und unterliegt den Datenschutzbestimmungen des jeweiligen Store-Betreibers.
-      Donkey Bridge hat keinen Zugriff auf diese Daten.
+      Da Donkey Bridge keine personenbezogenen Daten verarbeitet, ist eine Verarbeitung nach Art. 6 DSGVO für die App-Funktionen nicht relevant. Für eingehende Nutzeranfragen (z. B. Auskunftsersuchen nach Art. 15 DSGVO) gelten die entsprechenden Regelungen der DSGVO.
     </p>
+  </section>
 
+  <section>
+    <h2>7. Deine Rechte</h2>
     <p>
-      Keine sensiblen Berechtigungen: Die App fordert keine Geräteberechtigungen an
-      (z. B. Kamera, Standort, Kontakte, Mikrofon).
+      Sofern personenbezogene Daten betroffen sein sollten, stehen dir die Rechte der DSGVO zu, z. B. Auskunft (Art. 15), Löschung (Art. 17), Berichtigung (Art. 16) und Beschwerde (Art. 77). Anfragen bitte per E-Mail an <a href="mailto:dingda@gmx.net">dingda@gmx.net</a>. Wir beantworten Anfragen grundsätzlich innerhalb eines Monats und informieren, falls eine Verlängerung nötig ist.
     </p>
+  </section>
 
-    <h2>4. Drittanbieter & Integrationen</h2>
-    <p>Es werden keine Drittanbieter-Dienste oder externen Tracking-Tools verwendet.</p>
-
-    <ul>
-      <li>Keine Analysen, Ads oder Tracking-Tools.</li>
-      <li>Keine Werbung.</li>
-      <li>Keine Push-Nachrichten.</li>
-      <li>Keine externen Bibliotheken, die Daten senden.</li>
-    </ul>
-
-    <h2>5. Datensicherheit</h2>
-    <ul>
-      <li>Verschlüsselung: Alle lokalen Prozesse nutzen sichere Hash-Algorithmen (z. B. SHA-256).</li>
-      <li>Übertragung: Keine Netzwerkverbindungen – die App ist 100% offline.</li>
-      <li>Gerätesicherheit: Die App respektiert die Sicherheitseinstellungen deines Betriebssystems.</li>
-    </ul>
-
-    <h2>6. Deine Rechte (DSGVO)</h2>
-    <p>Du hast folgende Rechte – auch wenn wir keine Daten haben:</p>
-
-    <ul>
-      <li>Auskunft (Art. 15): Fordere per E-Mail Infos an.</li>
-      <li>Löschung (Art. 17): Nicht relevant, da keine Speicherung stattfindet.</li>
-      <li>Widerspruch (Art. 21): Gegen jegliche (hypothetische) Verarbeitung.</li>
-      <li>Widerruf (Art. 7): Jederzeit.</li>
-      <li>Beschwerderecht: Bei der zuständigen Landesdatenschutzbeauftragten.</li>
-    </ul>
-
+  <section>
+    <h2>8. Kinder</h2>
     <p>
-      Kontaktiere uns: dingda@gmx.net (Antwort innerhalb 1 Monats).
+      Die App richtet sich nicht an Kinder unter 13 Jahren. Hinweis: In der EU kann das Mindestalter zur eigenständigen Einwilligung in bestimmte Online-Dienste gesetzlich abweichen (z. B. 13–16 Jahre, abhängig vom Mitgliedstaat).
     </p>
+  </section>
 
-    <h2>7. Kinder</h2>
+  <section>
+    <h2>9. Änderungen dieser Datenschutzerklärung</h2>
     <p>
-      Donkey Bridge ist nicht für Kinder unter 13 Jahren gedacht.
-      Wir erheben wissentlich keine Daten von Kindern.
+      Änderungen der Datenschutzerklärung werden auf dieser Seite veröffentlicht. Bei wesentlichen Änderungen werden wir zusätzlich Versions- bzw. Release-Informationen im Repository und im App-Store-Eintrag bereitstellen.
     </p>
+  </section>
 
-    <h2>8. Änderungen dieser Erklärung</h2>
+  <section>
+    <h2>10. Kontakt</h2>
     <p>
-      Wir aktualisieren diese Erklärung bei Bedarf.
-      Änderungen werden im App Store / Play Store Eintrag oder über unsere Webseite kommuniziert.<br>
-      Letzte Prüfung: 28.10.2025.
+      Bei Fragen oder Datenschutz-Anliegen: <br>
+      E-Mail: <a href="mailto:dingda@gmx.net">dingda@gmx.net</a>
     </p>
+  </section>
 
-    <h2>9. Kontakt</h2>
-    <p>Fragen? Schreib uns:</p>
-
-    <ul>
-      <li>E-Mail: dingda@gmx.net</li>
-      <li>Im App: Über den "Hilfe & Feedback" Bereich.</li>
-    </ul>
-
-    <footer>
-      <p>
-        Vielen Dank für dein Vertrauen! Donkey Bridge schützt deine Privatsphäre von Grund auf.<br>
-        Think it. Recall it.
-      </p>
-    </footer>
-
-  </div>
+  <footer>
+    <p>Diese Erklärung wurde automatisch generiert und basiert auf den bisherigen öffentlich verfügbaren Angaben zur Funktionalität von Donkey Bridge / Donkey Bridge Lite. Bitte ergänze die Felder <code>[REPO_URL]</code> und ggf. das Impressum mit deiner offiziellen Adresse, falls rechtlich erforderlich.</p>
+  </footer>
 </body>
 </html>
